@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>My Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/styles.css">
+    <link rel="stylesheet" href="../assets/css/fonts.css">
+    <link rel="stylesheet" href="../assets/css/nav.css">
+    <link rel="stylesheet" href="../assets/css/footer.css">
+
+</head>
+<body>
+    <header class="top-bar" id="topBar">
+
+        <nav class="nav-links">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="OpenGL.html">OpenGL Graphics</a></li>
+                <li><a href="finished.html">Finished Projects</a></li>
+                <li><a href="about.html">About Me</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div id="spacer" style="height: 11vh;"></div>
+
+    <div class="content" style="min-width: 100%;">
+        <div class="details">
+            <div class="blog-content">
+                <p class="blog-p raleway-default">OpenGL, short for Open Graphics Library, is a powerful, cross-platform API used for rendering 2D and 3D vector graphics. It's widely utilized in applications ranging from video games to scientific visualization, providing developers with the tools to control graphics hardware and create stunning visual effects. My journey into OpenGL has been both challenging and rewarding, transforming my understanding of computer graphics.</p>
+            
+                <p class="blog-p">My experience began with the LearnOpenGL website, an invaluable resource for beginners and experienced developers alike. Starting with simple shapes, I gradually built a foundation by learning the OpenGL pipeline, shader programming, and the essentials of rendering. Each step introduced new concepts, from vertex buffers to texture mapping.</p>
+            
+                <p class="blog-p">When I reached the stencil testing stage, everything began to click. Stencil testing taught me how to add dynamic visual effects like outlining objects and masking parts of the screen, elevating my projects to a new level of sophistication. It was a thrilling milestone that deepened my enthusiasm for graphics programming.</p>
+            
+                <p class="blog-p">Encouraged by these achievements, I started working on my own projects, pushing the boundaries of what I’d learned. These projects include experiments with advanced lighting models, blending techniques, and even the basics of physics simulations—all hosted on my GitHub. They represent not just my technical growth but also my creativity and passion for problem-solving.</p>
+            
+                <p class="blog-p">OpenGL has opened up a world of possibilities for me, and I continue to explore its capabilities through both personal and collaborative projects. Whether I'm refining a complex rendering technique or experimenting with shaders, this journey has been a testament to the power of learning and perseverance.</p>
+            
+                <p class="blog-p">Thank you for taking the time to read about my journey. If you’re curious about my projects or want to discuss OpenGL, feel free to check out my GitHub or get in touch—I’m always excited to connect with fellow enthusiasts!</p>
+            </div>
+            
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script type="module" src="../assets/js/main.js"></script>
+    <script>
+        // Load reusable templates
+        document.getElementById("header").innerHTML = await (await fetch("templates/header.html")).text();
+        document.getElementById("footer").innerHTML = await (await fetch("templates/footer.html")).text();
+    </script>
+
+    <!-- Footer -->
+<footer class="footer">
+    <div class="footer-container">
+
+        <!-- Quick Links -->
+        <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Finished Projects</a></li>
+                <li><a href="#">Unfinished Projects</a></li>
+                <li><a href="#">About Me</a></li>
+            </ul>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="footer-section">
+            <h4>Contact Information</h4>
+            <p>Email: <a href="mailto:gsirvent@me.com">gsirvent@me.com</a></p>
+            <p>Phone: <a href="tel:+7147476563">+1 (714) 747-6563</a></p>
+            <p>Address: 1411 W Moraga Road, Fresno CA.</p>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
